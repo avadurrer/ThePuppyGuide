@@ -1,0 +1,16 @@
+<style>
+body {
+background-color: ;
+}
+
+h1 {
+color: ;
+text-align: ;
+}
+h2 {
+text-align: ;
+}
+ul {
+color: ;
+}
+</style>
