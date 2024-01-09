@@ -1,1 +1,10 @@
-
+header { } 
+body {
+    background-color: bisque;
+    font-size: 2em;
+    color: darkcyan;
+    text-align: center; }
+nav { }
+h1 {font-size: 3em; } 
+h2 { }
+ul { }
