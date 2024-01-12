@@ -8,8 +8,8 @@
   </head>
   <body>
     <h1>🐾 About 🐾</h1>
-    <p><b>Mission:</b><br>
-      <i>The Puppy Guide</i> is all about helping you find your ideal
+    <p><b><h2>Mission:</h2></b><br>
+      <em>The Puppy Guide</em> is all about helping you find your ideal
       furry sidekick! <br>
       Whether you're actively searching for a new dog or just curious
       about the different breeds, <br>
@@ -44,7 +44,21 @@
       <meta charset="utf-8">
     </p>
       
-    <nav>
+      
+    <form action="mailto:avadurrer@gmail.com" method="post"
+      enctype="text/plain">
+      <label for="name">Name:</label>
+      <input name="name" id="name" type="text"><br>
+      <label for="mail">E-mail:</label>
+      <input name="mail" id="mail" type="text"><br>
+      <label for="comments">Questions or Comments</label>
+      <input name="comments" id="comments" type="text"><br>
+      <br>
+      <input value="Send" type="submit">
+      <input value="Reset" type="reset">
+    </form>
+      
+          <nav>
       <ul>
         <a href="index.html">Home</a>
         <br>
@@ -54,19 +68,6 @@
         <a href="styles.css">CSS</a><br>
       </ul>
     </nav>
-      
-    <form action="mailto:avadurrer@gmail.com" method="post"
-      enctype="text/plain">
-      Name:<br>
-      <input name="name" type="text"><br>
-      E-mail:<br>
-      <input name="mail" type="text"><br>
-      Questions or Comments:<br>
-      <input name="comment" size="50" type="text"><br>
-      <br>
-      <input value="Send" type="submit">
-      <input value="Reset" type="reset">
-    </form>
       
       
   </body>
